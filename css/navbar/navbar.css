@@ -1,0 +1,37 @@
+nav {
+  background-color: var(--bg);
+  color: var(--fg);
+  position: sticky;
+  top: 0;
+}
+
+.navbar {
+  display: flex;
+  height: 10vh;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar span {
+  display: flex;
+  gap: 5px;
+  font-size: 1.2rem;
+  align-items: center;
+  user-select: none;
+  color: var(--primary);
+}
+
+.navbar-items {
+  display: flex;
+  gap: 30px;
+  user-select: none;
+}
+
+.navbar-item {
+  color: var(--fg-darkest);
+  text-decoration: none;
+}
+
+.active {
+  color: var(--fg);
+}

@@ -1,0 +1,64 @@
+.section1 {
+  display: flex;
+  flex: 1;
+}
+
+.left-section {
+  display: flex;
+  align-items: center;
+  width: 50%;
+  height: 100%;
+  flex-grow: 0;
+}
+
+.right-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  height: 100%;
+  flex-grow: 0;
+  gap: 30px;
+}
+
+.right-section img {
+  width: 700px;
+  user-select: none;
+}
+
+.btn {
+  background-color: var(--bg);
+  color: var(--secondary);
+  width: fit-content;
+  padding: 10px;
+  border: 2px solid var(--secondary);
+  border-radius: 12px;
+  font-size: 1rem;
+  font-family: 'Poppins';
+  display: flex;
+  align-self: center;
+  gap: 5px;
+  justify-content: center;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.btn:hover {
+  animation: swing 2.5s infinite;
+}
+
+@keyframes swing  {
+  25% {
+    transform:rotate(20deg)
+  }
+
+  75% {
+    transform: rotate(-20deg);
+  }
+}
+
+#foo {
+  user-select: none;
+  font-size: 2.5rem;
+}
