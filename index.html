@@ -6,6 +6,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link href="./main.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.14.0/devicon.min.css">
   <script src="https://unpkg.com/boxicons@2.1.2/dist/boxicons.js"></script>
   <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
   <script src="./js/app.js" type="module"></script>
@@ -14,16 +15,16 @@
 <body>
   <nav>
     <div class="navbar container">
-      <span style="">
+      <span>
         Marvin
         <box-icon type='solid' name='package' color="var(--primary)"></box-icon>
       </span>
 
       <div class="navbar-items">
-        <a href="#" class="active navbar-item">Home</a>
+        <a href="#" class="navbar-item active ">Home</a>
         <a href="#section2" class="navbar-item">Projects</a>
-        <a href="#" class="navbar-item">About Me</a>
-        <a href="#" class="navbar-item">Hire Me</a>
+        <a href="#section3" class="navbar-item">About Me</a>
+        <a href="#section4" class="navbar-item">Hire Me</a>
       </div>
     </div>
   </nav>
@@ -42,11 +43,11 @@
         </div>
       </div>
       <div class="section section2" id="section2">
-        <h2 class="projects-title">Projects</h2>
+        <h2 class="sub-title">Projects</h2>
         <div class="project1">
           <div class="project-container">
-            <h3>Floppa's Cook</h3>
-            <img src="./img/floppa.png" class="project-img">
+            <h3>Linux Website</h3>
+            <img src="./img/linux.png" class="project-img">
             <span>
               Consectetur similique accusantium optio voluptatem id Natus obcaecati deserunt assumenda natus velit
               Molestiae maxime dolore.
@@ -56,8 +57,8 @@
         </div>
         <div class="project2">
           <div class="project-container">
-            <h3>Weather Vanilla JavaScript App</h3>
-            <img src="./img/floppa.png" class="project-img">
+            <h3>Plants Store</h3>
+            <img src="./img/plants.png" class="project-img">
             <span>
               Consectetur similique accusantium optio voluptatem id Natus obcaecati deserunt assumenda natus velit
               Molestiae maxime dolore.
@@ -67,14 +68,46 @@
         </div>
         <div class="project3">
           <div class="project-container">
-            <h3>Vanilla JavaScript Calculator</h3>
-            <img src="./img/floppa.png" class="project-img">
+            <h3>Food Website</h3>
+            <img src="./img/food.png" class="project-img">
             <span>
               Consectetur similique accusantium optio voluptatem id Natus obcaecati deserunt assumenda natus velit
               Molestiae maxime dolore.
               <button class="project-button">See more.</button>
             </span>
           </div>
+        </div>
+      </div>
+      <div id="section3" class="section section3">
+        <h2 class="sub-title-2">About me</h2>
+        <div class="profile-card">
+          <div class="profile-img-container">
+            <img src="./img/profile.jpg" class="profile-img">
+          </div>
+          <div class="profile-data-container">
+            <div class="profile-data">
+              <h3>Technologies</h3>
+              <i class="devicon-html5-plain dev-icon"></i>
+              <i class="devicon-css3-plain dev-icon"></i>
+              <i class="devicon-javascript-plain dev-icon"></i>
+              <i class="devicon-react-plain dev-icon"></i>
+              <i class="devicon-nodejs-plain dev-icon"></i>
+              <i class="devicon-express-original dev-icon"></i>
+              <i class="devicon-mysql-plain dev-icon center-icon"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="section4" class="section section4">
+        <h2 class="sub-title">Hire Me</h2>
+        <div class="hire-me-card">
+          <h3>Send a email</h3>
+          <form>
+            <input type="email" placeholder="Email">
+            <input type="text" placeholder="Name">
+            <textarea placeholder="Message"></textarea>
+          </form>
+          <h3>Social</h3>
         </div>
       </div>
     </div>

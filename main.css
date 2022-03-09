@@ -2,6 +2,8 @@
 @import './css/navbar/navbar.css';
 @import './css/home/home.css';
 @import './css/projects/projects.css';
+@import './css/about/about.css';
+@import './css/hire/hire.css';
 
 * {
   padding: 0px;
@@ -21,6 +23,7 @@
 
 html {
   scroll-behavior: smooth;
+  overflow: hidden;
 }
 
 body {

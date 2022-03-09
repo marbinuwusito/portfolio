@@ -1,0 +1,76 @@
+.section3 {
+  padding-top: 10vh;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 10vh 80vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile-card {
+  align-self: center;
+  grid-column: 2 / 3;
+  background-color: var(--bg-light);
+  display: flex;
+  width: 1000px;
+  padding: 20px;
+  border-radius: 12px;
+  height: 70vh;
+}
+
+.profile-img-container {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.profile-img {
+  width: 400px;
+  height: 400px;
+  border-radius: 100%;
+  object-fit: contain;
+}
+
+.profile-data-container {
+  background-color: var(--bg-lightest);
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.profile-data {
+  height: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 50px;
+}
+
+.profile-data h3 {
+  grid-column: 1 / 4;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--secondary);
+}
+
+.sub-title-2 {
+  grid-column: 1 / 4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 10vh;
+  color: var(--primary);
+}
+
+.dev-icon {
+  font-size: 3.5rem;
+  color: var(--primary);
+}
+
+.center-icon {
+  grid-column: 1 / 4;
+  text-align: center;
+}
